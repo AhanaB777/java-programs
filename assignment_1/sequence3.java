@@ -3,7 +3,7 @@
 // 1, 2, 6, 24, 
 import java.util.Scanner;
 
-class A {
+class seq3 {
     void printSequence3(int limit) {
         // int a = 2;
         int b = 1;
@@ -22,7 +22,7 @@ class sequence3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the limit: ");
         l = sc.nextInt();
-        A obj = new A();
+        seq3 obj = new seq3();
         obj.printSequence3(l);
         sc.close();
     }
