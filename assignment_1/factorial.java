@@ -1,6 +1,6 @@
 import java.util.*;
 
-class A {
+class F {
     int fact(int n) {
         int f = 1;
         for (int i = n; i >= 1; i--) {
@@ -16,7 +16,7 @@ class factorial {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of num: ");
         num = sc.nextInt();
-        A obj = new A();
+        F obj = new F();
         x = obj.fact(num);
         System.out.println("Factorial of number is " + x);
         sc.close();

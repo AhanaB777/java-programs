@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class A {
+class sp {
     boolean isPrime(int n) {
         if (n <= 1)
             return false;
@@ -29,7 +29,7 @@ public class sumPrimes {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         n = sc.nextInt();
-        A obj = new A();
+        sp obj = new sp();
         obj.sumofPrimes(n);
         sc.close();
     }

@@ -1,5 +1,5 @@
 
-class second {
+class pr {
 
     void printPrimes() {
         for (int i = 2; i <= 1000; i++) {
@@ -19,7 +19,7 @@ class second {
 
 class primes {
     public static void main(String[] args) {
-        second obj = new second();
+        pr obj = new pr();
         obj.printPrimes();
     }
 }

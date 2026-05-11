@@ -2,7 +2,7 @@
 //Program to print sequence "0,2,1,4,1,8,2,16,3,32,5,64,8,..." upto a given limit
 import java.util.*;
 
-class second {
+class seq1 {
     void printSequence(int limit) {
         int a = -1;
         int b = 1;
@@ -25,7 +25,7 @@ class sequence1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the limit: ");
         l = sc.nextInt();
-        second obj = new second();
+        seq1 obj = new seq1();
         obj.printSequence(l);
         sc.close();
     }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class A {
+class pld {
     void isPalindrome(int n) {
         int temp = n;
         int rev = 0;
@@ -22,7 +22,7 @@ public class palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number: ");
         n = sc.nextInt();
-        A obj = new A();
+        pld obj = new pld();
         obj.isPalindrome(n);
         sc.close();
     }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class A {
+class Fac {
     void dispFactors(int x) {
         for (int i = 1; i <= x / 2; i++) {
             if (x % i == 0) {
@@ -17,7 +17,7 @@ class factors {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         num = sc.nextInt();
-        A obj = new A();
+        Fac obj = new Fac();
         System.out.println("Factors of " + num + " are : ");
         obj.dispFactors(num);
         sc.close();

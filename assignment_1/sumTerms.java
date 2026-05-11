@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class A {
+class st {
     double calculateSum(int limit) {
         double s = 0;
         int f = 1;
@@ -22,7 +22,7 @@ class sumTerms {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of n: ");
         n = sc.nextInt();
-        A obj = new A();
+        st obj = new st();
         res = obj.calculateSum(n);
         System.out.println("Sum of terms : " + res);
         sc.close();

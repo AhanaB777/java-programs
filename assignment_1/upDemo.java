@@ -21,4 +21,3 @@ class upDemo {
         sc.close();
     }
 }
-

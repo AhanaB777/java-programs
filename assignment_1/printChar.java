@@ -1,4 +1,4 @@
-class A {
+class pchar {
     void charPrint() {
         for (char i = 'A'; i <= 'Z'; i++) {
             System.out.println(i);
@@ -8,7 +8,7 @@ class A {
 
 public class printChar {
     public static void main(String[] args) {
-        A obj = new A();
+        pchar obj = new pchar();
         obj.charPrint();
 
     }

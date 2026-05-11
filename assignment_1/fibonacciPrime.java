@@ -1,5 +1,5 @@
 
-class second {
+class fibP {
     boolean isPrime(int n) {
         if (n <= 1)
             return false;
@@ -34,7 +34,7 @@ class second {
 class fibonacciPrime {
     public static void main(String[] args) {
         // int x, y;
-        second obj = new second();
+        fibP obj = new fibP();
         obj.Fibonacci();
 
     }

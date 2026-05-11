@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class A {
+class G {
     int findGCD(int a, int b) {
         int rem;
         if (b > a) {
@@ -29,7 +29,7 @@ class gcd {
         x = sc.nextInt();
         System.out.println("Enter the second number: ");
         y = sc.nextInt();
-        A obj = new A();
+        G obj = new G();
         res = obj.findGCD(x, y);
         System.out.println("GCD : " + res);
         sc.close();

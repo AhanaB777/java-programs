@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class second {
+class Fib {
     int Fibonacci(int n) {
         int a = -1;
         int b = 1;
@@ -24,7 +24,7 @@ class fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an number of terms: ");
         x = sc.nextInt();
-        second obj = new second();
+        Fib obj = new Fib();
         y = obj.Fibonacci(x);
         System.out.println("Sum of terms: " + y);
         sc.close();

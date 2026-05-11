@@ -1,4 +1,4 @@
-class A {
+class DS {
     int sumDivby7() {
         int s = 0;
         for (int i = 100; i < 200; i++) {
@@ -14,7 +14,7 @@ class A {
 public class divSum {
     public static void main(String[] args) {
         int res;
-        A obj = new A();
+        DS obj = new DS();
         res = obj.sumDivby7();
         System.out.println("Sum of integers divisible by 7 (b/w 100 and 200): " + res);
     }

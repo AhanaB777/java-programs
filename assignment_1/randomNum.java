@@ -2,7 +2,7 @@
 
 import java.util.Random;
 
-class A {
+class rnum {
     int getRandomNum() {
         int n;
         Random r = new Random();
@@ -15,7 +15,7 @@ class A {
 public class randomNum {
     public static void main(String[] args) {
         int n;
-        A obj = new A();
+        rnum obj = new rnum();
         n = obj.getRandomNum();
         System.out.println(n);
     }
