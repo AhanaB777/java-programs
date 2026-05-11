@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class A {
+class rsa {
     int[][] getInput() {
         int a[][] = new int[3][3];
         Scanner sc = new Scanner(System.in);
@@ -39,7 +39,7 @@ class A {
 public class rowSumArray {
     public static void main(String[] args) {
         int[][] arr;
-        A obj = new A();
+        rsa obj = new rsa();
         arr = obj.getInput();
         obj.dispArr(arr);
         obj.findRowSum(arr);
