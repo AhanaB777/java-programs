@@ -15,7 +15,7 @@ class A {
         for (int i = 0; i < s[0].length(); i++) {
             char var = s[0].charAt(i);
             for (int j = 1; j < s.length; j++) {
-                if (s[j].charAt(i) != var || i > s.length) {
+                if (s[j].charAt(i) != var || i > s[j].length()) {
                     return res;
                 }
             }
